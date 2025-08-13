@@ -1,0 +1,21 @@
+package day8;
+public class staticmethod {
+    int rollno = 55;
+    static String name = "akash";
+    static String collegename = "zion";
+
+    void display(int a, String name) {
+        System.out.println(a + " " + name + " " + collegename);
+    }
+
+    public static void show(int a) {
+        collegename = "mount zion";
+        System.out.println(a + " " + collegename);
+    }
+
+    public static void main(String[] args) {
+        show(55);
+        staticmethod obj = new staticmethod();
+        obj.display(65, "akash");
+    }
+}
