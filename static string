@@ -1,0 +1,19 @@
+package day8;
+public class staticstring{
+    int rollno;
+    String name;
+    static String collegename;
+    public void display(int rollno, String name) {
+        System.out.println("Roll No: " + rollno + ", Name: " + name + ", College: " + collegename);
+    }
+    public static void main(String[] args) {
+        staticstring obj = new staticstring();
+        System.out.println(obj.rollno); 
+        System.out.println(staticstring.collegename); 
+        staticstring.collegename = "Mount";
+        obj.display(55, "Akash");
+        obj.display(56, "Git");
+        obj.display(57, "Hut");
+        obj.display(58, "Goku");
+    }
+}
