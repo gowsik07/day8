@@ -1,0 +1,16 @@
+package day8;
+public class Hit {
+	    int age;
+	    String name;   
+	    Hit(int age, String name) {
+	       this.age = age;
+	       this.name = name;
+	    }
+	    void display() {
+	        System.out.println(age + " " + name);
+	    }  
+	    public static void main(String[] args) {
+	        Hit obj2 = new Hit(57, "Sung"); 
+	        obj2.display(); 
+	    }
+	}
