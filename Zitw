@@ -1,0 +1,23 @@
+package day8;
+ class g {
+	    void display() {
+	        System.out.println("Villa");
+	    }
+	}
+	class d extends g{
+	    void property() {
+	        System.out.println("House, Lands, Money");
+	    }
+	}
+	class s extends d{
+	    void show() {
+	        System.out.println("Bike");
+	    }
+	}
+	public class Zitw {
+	    public static void main(String[] args) {
+	        s obj = new s();
+	        obj.display();
+	    }
+	}
+	
