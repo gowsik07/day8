@@ -1,0 +1,17 @@
+package day8;
+class Da {
+    void property() {
+        System.out.println("House, Lands, Money");
+    }
+}
+class So extends Da {
+    void show() {
+        System.out.println("Bike");
+    }
+}
+public class hir {
+	public static void main(String[] args) {
+		Son obj = new Son();
+        obj.property(); 	  
+	}
+}
